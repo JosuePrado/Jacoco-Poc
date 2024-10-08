@@ -20,4 +20,9 @@ public class CalculatorTest {
     public void testMult() {
         assertEquals(15, Calculator.Mult(5, 3));
     }
+
+    @Test
+    public void testDiv() {
+        assertEquals(2, Calculator.Div(5, 2));
+    }
 }
