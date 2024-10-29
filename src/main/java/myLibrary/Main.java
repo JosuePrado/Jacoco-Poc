@@ -11,5 +11,20 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        
+        // try {
+        //     InstrumentCode2 iCode = new InstrumentCode2();
+        //     iCode.addCounterToByteCode("build\\classes\\java\\main\\myLibrary\\Calculator.class", "sum");
+        // } catch (IOException e) {
+        //     // TODO Auto-generated catch block
+        //     e.printStackTrace();
+        // }
+
+        // Calculator calculator = new Calculator();
+        // calculator.sum(0, 0);
+
+        // // Obtiene el valor del contador y lo imprime
+        // int count = calculator.getMethodCallCount();
+        // System.out.println("Method someMethod was called " + count + " times.");
     }
 }
