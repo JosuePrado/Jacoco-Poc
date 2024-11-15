@@ -1,16 +1,17 @@
-package myLibrary;
+package library;
 
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args)  {
 
-        try {
-            InstrumentCode iCode = new InstrumentCode();
-            iCode.addPrintToByCode("build\\classes\\java\\main\\myLibrary\\Calculator.class", "rest");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        System.out.println("main method");
+        // try {
+        //     InstrumentCode iCode = new InstrumentCode();
+        //     iCode.addPrintToByCode("build\\classes\\java\\main\\myLibrary\\Calculator.class", "rest");
+        // } catch (IOException e) {
+        //     e.printStackTrace();
+        // }
         
         // try {
         //     InstrumentCode2 iCode2 = new InstrumentCode2();
